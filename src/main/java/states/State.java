@@ -1,6 +1,8 @@
 package states;
 
 
+import main.Game;
+
 import java.awt.*;
 
 public abstract class State {
@@ -15,13 +17,14 @@ public abstract class State {
     return currentState;
 }
     //CLASS
-        public abstract void tick();
-        public abstract void render( Graphics g);
 
-       // protected Game game;
+    protected Game game;
+    public State(Game game){
+        this.game=game;
+    }
 
-      //  public State(Game game){
-     //       this.game=game;
-    //    }
+    public abstract void tick();
+    public abstract void render( Graphics g);
+
 
 }

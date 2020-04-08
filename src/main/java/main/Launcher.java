@@ -1,3 +1,5 @@
+package main;
+
 import Display.Display;
 
 public class Launcher
