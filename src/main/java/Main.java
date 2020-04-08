@@ -1,4 +1,5 @@
-import javax.swing.*;
+//STARY MAIN
+/*import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 
@@ -71,4 +72,4 @@ public class Main  extends Canvas implements Runnable{
     public static void main(String[] args) {
         new Main ( ).start();
     }
-}
+}*/
